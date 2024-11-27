@@ -113,6 +113,7 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink2),
+            InlineKeyboardButton("💬 Start this bot", url="https://t.me/PAWSOG_bot/PAWS?startapp=fCE3jUge"),
         ]
     ]
     try:
